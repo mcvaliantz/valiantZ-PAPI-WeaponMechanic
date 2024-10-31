@@ -1,0 +1,10 @@
+license_id: "YOUR_LICENSE_ID"
+
+placeholder_output:
+  selective_fire:
+    0:
+      output: "S"
+    1:
+      output: "B"
+    2:
+      output: "A"

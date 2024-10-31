@@ -1,0 +1,12 @@
+<!DOCTYPE xml>
+<project name="vishsiri-WeaponMechanicPAPI" default="Build">
+    <target name="Build">
+        <jar jarfile="D:\mcserver-visherryz\live_debug_1.20.4\plugins\${ant.project.name}.jar"
+             basedir="./target/classes/"
+             includes="**/*">
+<!--            <zipgroupfileset dir="${user.home}/.m2/repository/org/jsoup/jsoup/1.17.2/"-->
+<!--                             includes="**/*1.17.2.jar"/>-->
+        </jar>
+    </target>
+
+</project>

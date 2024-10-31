@@ -1,0 +1,7 @@
+name: vishsiri-WeaponMechanicPAPI
+version: '${project.version}'
+main: space.vishsiri.weaponmechanicpapi.WeaponMechanicPAPI
+api-version: '1.20'
+softdepend: [PlaceholderAPI]
+depend:
+  - WeaponMechanics
